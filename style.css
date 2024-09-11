@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Left Section */
+.left-section {
+    width: 30%;
+    background-color: #a64907;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.personal-info {
+    text-align: center;
+}
+
+.personal-info h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.personal-info p {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.personal-info a {
+    color: #ECF0F1;
+    text-decoration: none;
+}
+
+/* Right Section */
+.right-section {
+    width: 70%;
+    padding: 20px;
+    background-color: #ECF0F1;
+    border-radius: 0 10px 10px 0;
+}
+
+/* Styling for different sections */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #a64907;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #a64907;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #a64907;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #a64907;
+    text-decoration: none;
+}
